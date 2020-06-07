@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h2>FORMS</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+
+        <div>
+            <input type="text" id="name">
+        </div>
+        <div>
+            Class: <input type="text">
+        </div>
+        <div>
+            Email: <input type="email" name="Myemail">
+        </div>
+        <div>
+            Enter Date: <input type="date" name="Date" id="">
+        </div>
+        <div>
+            Bonus: <input type="number" name="myBounus" id="">
+        </div>
+        <label for="io">Are You Eligible ?</label>
+        <div>
+            <input type="checkbox" name="eligibility " id="io" checked>
+        </div>
+        <div>
+            Gender: Male <input type="radio" name="gender" id=""> Female: <input type="radio" name="gender" id="">
+        </div>
+        <div>
+            <label for="car">Select Car:</label>
+            <select name="myCar" id="car">
+                <option value="Indica">Indica</option>
+                <option value="Innova">innova</option>
+                <option value="Creta">creta</option>
+            </select>
+        </div>
+        <div>
+
+            Text ares:<textarea name="Write about youself" cols="30" rows="10"></textarea></div>
+        <div>
+
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now ">
+
+        </div>
+    </form>
+</body>
+
+</html>

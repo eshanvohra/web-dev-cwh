@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+        background-color: red;
+        text-align: center;
+        font-size: 25px;
+        display: none;
+    }
+    @media (max-width:300px){
+        #box-1{
+            display: block;
+            background-color: aqua;
+        }
+    }
+    @media (min-width:300px) and (max-width:500px){
+        #box-2{
+            display: block;
+            background-color: yellowgreen;
+        }
+    }
+    @media (min-width:500px) and (max-width:800px){
+        #box-3{
+            display: block;
+            background-color: yellow;
+            color: black;
+        }
+    }
+    @media (min-width:800px) {
+        #box-4{
+            display: block;
+            background-color: violet;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">Mai ik iphone hoo</div>
+    <div class="box" id="box-2">Mai ik tablet hoo</div>
+    <div class="box" id="box-3">mai ik computer hoo</div>
+    <div class="box" id="box-4">mai ik widescreen computer hoon</div>
+</body>
+</html>
