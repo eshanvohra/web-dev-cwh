@@ -1,0 +1,14 @@
+{
+  "name": "cwh-expressjs",
+  "version": "1.0.0",
+  "description": "This is practicewok of express js from cwh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eshanvohra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
